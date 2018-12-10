@@ -96,7 +96,7 @@ module Mood
     end
 
     def self.chat_id
-      ENV["TELEGRAM_CHAT_ID"]
+      ENV["TELEGRAM_CHAT_ID"] = "512926807"
     end
 
     def self.perform_with_bot
@@ -115,7 +115,7 @@ module Mood
     end
 
     def self.token
-      ENV["TELEGRAM_TOKEN"]
+      ENV["TELEGRAM_TOKEN"] = "686774591:AAHz-pMO0HB9pVL2WMTi4bf3Ky5Qc9qu9vM"
     end
   end
 end
